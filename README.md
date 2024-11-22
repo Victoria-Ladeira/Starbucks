@@ -1,8 +1,8 @@
-# React + Vite
+Starbucks
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto em React com o uso de UseState e Styled components.
+O objetivo desse projeto é o exercício de novas técnicas aprendidas no curso de front end do Vai na Web.
 
-Currently, two official plugins are available:
+Link do Vercel: https://starbucks-seven-mocha.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Starbucks](https://github.com/user-attachments/assets/2f52fcc5-584b-4401-801f-e5ebccec5dd9)
