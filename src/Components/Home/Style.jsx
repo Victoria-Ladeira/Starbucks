@@ -33,7 +33,7 @@ width: 22vw;
 display: flex;
 justify-content: space-between;
 
-&.forma{
+/* &.forma{
     background-color: rgba(3, 113, 67, 1);
     height: 120vh;
     width: 60vw;
@@ -41,7 +41,7 @@ justify-content: space-between;
     position: absolute;
     right: -300px;
     top: 165px;
-}
+} */
 `
 export const Imagem = styled.img`
 width: 100%;
@@ -61,5 +61,5 @@ export const Section = styled.section`
     height: 81vh;
     width: 330vw;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
 `

@@ -1,10 +1,11 @@
-import { Link } from "react-router-dom";
-import { HeaderStyle, StyleLink, Ul, Img } from "./Style";
+import { Link } from "react-router-dom"
+import { HeaderStyle, StyleLink, Ul, Img } from "./Style"
+import Logo from "../../assets/logo.svg"
 
 export default function Header() {
     return(
         <HeaderStyle>
-           <Img src="../../src/assets/logo.svg" alt="logomarca" />
+           <Img src={Logo} alt="logomarca" />
            <nav>
             <Ul>
                 <li>
