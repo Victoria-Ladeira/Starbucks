@@ -1,6 +1,6 @@
 Starbucks
 
-Este é um projeto em React com o uso de UseState e Styled components.
+Este é um projeto em React com o uso de Rotas, UseState e Styled components.
 O objetivo desse projeto é o exercício de novas técnicas aprendidas no curso de front-end do Vai na Web.
 
 Link: https://starbucks-seven-mocha.vercel.app/
