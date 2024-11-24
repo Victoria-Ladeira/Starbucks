@@ -3,7 +3,10 @@ Starbucks
 Este é um projeto em React com o uso de UseState e Styled components.
 O objetivo desse projeto é o exercício de novas técnicas aprendidas no curso de front-end do Vai na Web.
 
-Link do Vercel: https://starbucks-seven-mocha.vercel.app/
+Link: https://starbucks-seven-mocha.vercel.app/
 
-![printStarbucks](https://github.com/user-attachments/assets/9073d1b2-9158-45e3-b8b3-d657700edf4f)
+![home](https://github.com/user-attachments/assets/9f54885a-1f0a-40bb-b3bc-cf7339a746fe)
 
+![novidades](https://github.com/user-attachments/assets/83f61e59-2027-493b-a2a6-3345279419be)
+
+![sobre](https://github.com/user-attachments/assets/315c6b37-ff81-4d2b-92be-09388f6f4d13)
