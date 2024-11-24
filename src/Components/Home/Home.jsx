@@ -1,4 +1,4 @@
-import {H1, H2, Main, P, Span, Img, Div, Section, Imagem} from "./Style";
+import {H1, H2, Main, P, Span, Img, Div, Section, Imagem, Forma} from "./Style";
 import {Button} from "../ButtonStyle"
 import {useState} from "react"
 import copoAmarelo from "../../assets/amarelo2.svg"
@@ -7,30 +7,28 @@ import copoVermelho from "../../assets/vermelho2.svg"
 import Laranja from "../../assets/laranja1.svg"
 import Vermelho from "../../assets/vermelho1.svg"
 import Amarelo from "../../assets/amarelo1.svg"
-import ElipseVerde from "../../assets/Ellipseverde.svg"
-import ElipseVermelha from "../../assets/EllipseV.svg"
-import ElipseAmarela from "../../assets/EllipseA.svg"
-
-
+import ElipseVerde from "../../assets/EllipseVerde.png"
+import ElipseVermelha from "../../assets/EllipseV.png"
+import ElipseAmarela from "../../assets/EllipseA.png"
 
 export default function Home () {
     
     const [copo, setCopo,] = useState (copoLaranja);
-    // const [elipse, setElipse] = useState (ElipseVerde);
+    const [elipse, setElipse] = useState (ElipseVerde);
     
     const trocarCopoLaranja = () => {
     setCopo(copoLaranja);
-    // setElipse(ElipseVerde);
+    setElipse(ElipseVerde);
     }
 
     const trocarCopoVermelho = () => {
         setCopo(copoVermelho) ;
-        // setElipse(ElipseVermelha);
+        setElipse(ElipseVermelha);
     }
 
     const trocarCopoAmarelo = () => {
         setCopo(copoAmarelo);
-        // setElipse(ElipseAmarela);
+        setElipse(ElipseAmarela);
     }
 
      return(
@@ -48,7 +46,7 @@ export default function Home () {
             </section>
             <Section>
                 <Img src={copo} alt="copo de café grande" />
-                <img src={ElipseVerde} alt="Elipse" />
+                <Forma src={elipse} alt="Elipse" />
             </Section>
         </Main>
     );

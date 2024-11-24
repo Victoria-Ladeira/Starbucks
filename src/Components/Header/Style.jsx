@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 export const HeaderStyle = styled.header `
 display: flex;
 justify-content: space-between;
-margin: 25px 220px 25px 80px;
+padding: 15px 220px 15px 115px;
 `
 export const Img = styled.img`
 height: 12vh;
@@ -24,4 +24,5 @@ list-style: none;
 display: flex;
 justify-content: space-around;
 width: 25vw;
+margin-top: 30px;
 `

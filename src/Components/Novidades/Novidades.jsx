@@ -1,11 +1,9 @@
-import {Body, Section, Div, H2, H3, P} from "./Style"
+import {Section, Div, Img, H2, H3, P} from "./Style"
 import Grao from "../../assets/grao.svg"
 import {Button} from "../ButtonStyle"
 
-
 export default function Novidades() {
     return(
-        <Body>
             <Section>
             <Div>
             <H2>PREPARAÇÃO</H2>
@@ -14,9 +12,8 @@ export default function Novidades() {
             <Button>SAIBA MAIS</Button>
             </Div>
             <div>
-                <img src={Grao} alt="Grão de café" />
+                <Img src={Grao} alt="Grão de café" />
             </div>
         </Section>
-        </Body>
     );
 }
