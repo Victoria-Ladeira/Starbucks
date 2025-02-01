@@ -1,9 +1,26 @@
-Starbucks
+# Projeto Starbucks <img src= "https://th.bing.com/th/id/R.3416f7502ffdb30d25407229a1dd433b?rik=f9kqxGkOzwaKrw&pid=ImgRaw&r=0" width="30"/>
 
-Este é um projeto em React com o uso de Rotas, UseState e Styled components.
-O objetivo desse projeto é o exercício de novas técnicas aprendidas no curso de front-end do Vai na Web.
+### Destaque para lógica utilizando UseState.
 
-Link: https://starbucks-seven-mocha.vercel.app/
+O objetivo desse trabalho foi desenvolver um projeto utilizando rotas, componentização e useState.
+
+## Tecnologias utilizadas:
+- JS como linguagem de programação
+- REACT como Framework
+- Styled Components para estilização
+
+### O que você encontrará neste projeto:
+- **Estrutura semântica**
+- **Organização de código**
+- **Componentização** e estrutura organizacional de pastas
+- Uso de **lógica de programação**, ao clicar no copo, a cor da elipse no fundo é alterada de acordo com cada copo.
+- Os links de navegação mudam de cor conforme o cursor passa por eles.
+
+**Link:** https://starbucks-seven-mocha.vercel.app/
+
+---
+
+  Que tal um cafezinho com programação! rs 😄
 
 ![home](https://github.com/user-attachments/assets/9f54885a-1f0a-40bb-b3bc-cf7339a746fe)
 
